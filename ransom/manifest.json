@@ -1,0 +1,21 @@
+{
+    "name" :"SayNo2Ransom",
+    "version" :"0.65",
+    "manifest_version": 2,
+    "description" :"Ransomeware detection and recovery",
+    
+    
+    "browser_action" :
+        {
+            "default_icon" : "images/im2.png",
+            "default_popup" :"pop.html"
+        },
+    
+    "icons": 
+        {
+            "128": "images/im1.png"
+            
+        },
+    "permissions":["activeTab"]
+}
+   
