@@ -39,8 +39,9 @@ RECOVERY
 Such that users can download the decryptors and remove the ransomwares from their systems.
 
 ## Screenshots:
-
-#Decryptor
+---
+Decryptor
+---
 <img src="https://github.com/Abu-thahir/HackOverflow/blob/main/screenshots/decryptor%20paeg.png" height=400 width=800/>
 
 
