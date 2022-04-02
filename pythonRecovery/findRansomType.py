@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
-import os
 import warnings
 
 warnings.filterwarnings("ignore")
@@ -35,4 +34,5 @@ def findRansomName(path):
 # print(findRansomName(
 #     r"C:\Users\daadreyaa\Desktop\HackOverFlow\pythonRecovery\ransom.micro.txt"))
 
-print(findRansomName(r"C:\Users\daadreyaa\Desktop\HackOverFlow\pythonRecovery\sample.txt"))
+print(findRansomName(
+    r"C:\Users\daadreyaa\Desktop\HackOverFlow\pythonRecovery\ransom.micro.txt"))
