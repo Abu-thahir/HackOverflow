@@ -11,13 +11,15 @@ Visual C++ console application to detect ransomware activity on Windows OS. It c
 Ransomware is a malware/malicious software program designed to block or disable access to the data your computer until a sum of money is paid.
 The project aims at detecting and notifying the user of potential ransomware behavior on the windows system and helping them to recover their system from ransomware.
 
+![Flowchart (1)](https://user-images.githubusercontent.com/69951869/161373549-7da62010-fa63-4135-bb8c-fb85917534f9.jpeg)
+
 ```
 WEB BROWSER EXTENSION
 ```
 We have created an extension called SayNO2Ransome , which allows the users to drag and drop the files or urls which they need to check for ransomware dectection and recovery.
 
 ```
-#DETECTION
+DETECTION
 ```
 
 * Detecting a Process commonly executed by Ransomware.(Here we have detecting VSSadmin process which is commonly run by Ransomware for deleting backup files-Shadow copies)
@@ -28,7 +30,7 @@ We have created an extension called SayNO2Ransome , which allows the users to dr
 We have decided to check these parameters on which the behavior can be judged after studying the behavior of various ransomware.The project is multithreaded so that all the  features can be run asynchronously.
 
 ```
-#RECOVERY
+RECOVERY
 ```
 
 * To find type and name of the ransomware , we have used a website called ID-RANSOMEWARE , a free service to the public using selenium.
