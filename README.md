@@ -11,7 +11,7 @@ Visual C++ console application to detect ransomware activity on Windows OS. It c
 Ransomware is a malware/malicious software program designed to block or disable access to the data your computer until a sum of money is paid.
 The project aims at detecting and notifying the user of potential ransomware behavior on the windows system and helping them to recover their system from ransomware.
 
-![Flowchart (1)](https://user-images.githubusercontent.com/69951869/161373549-7da62010-fa63-4135-bb8c-fb85917534f9.jpeg | Width=400 | length=300)
+![Flowchart (1)](https://user-images.githubusercontent.com/69951869/161373549-7da62010-fa63-4135-bb8c-fb85917534f9.jpeg=400*300)
 
 ```
 WEB BROWSER EXTENSION
